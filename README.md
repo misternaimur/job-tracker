@@ -19,4 +19,16 @@ Ans: ai bahbeh kori - const newElement = document.createElement('div');
  Ans : it is process in js triggle in js 
  when we click child element event it going to up like a  Bubble 
 
- 
+What is Event Delegation in JavaScript? Why is it useful?
+one listener on the parent can manage events for all its children.
+
+useful 
+- Improved Performance 
+- Simpler Code for Dynamic Elements
+- Reduced Memory Footprint
+- Cleaner Codebase
+
+What is the difference between preventDefault() and stopPropagation() methods?
+
+preventDefault() stops the event’s default behavior, 
+while stopPropagation() prevents the event from bubbling or capturing to other elements.
